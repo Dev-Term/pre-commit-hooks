@@ -1,0 +1,6 @@
+- id: validate-eslint
+  name: Validate eslint for Javascript and Typescript based files
+  description: "A script to validate eslint rules on Javascript and Typescript files."
+  entry: ./scripts/validate-eslint.sh
+  language: script
+  stages: [commit]
